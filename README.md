@@ -3,6 +3,8 @@ Music App built with React and Typescript
 
 ( See specifications and download project as zip - https://drive.google.com/drive/folders/17FhSWfESi2S7bZqmRIcZ7291v039IHif )
 
+live app: https://laragonmusicapplication.herokuapp.com/
+
 1. Redux for global state management using redux toolkit with slices (avoid redux boilerplate).
 2. Sass for styling.
 3. React hooks.
