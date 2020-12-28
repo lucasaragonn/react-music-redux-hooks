@@ -1,0 +1,11 @@
+.favorites {
+  @media (min-width: 768px) {
+    padding: 16px;
+    border: 1px solid #bbb;
+  }
+
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

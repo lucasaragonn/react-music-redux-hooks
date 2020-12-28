@@ -1,0 +1,19 @@
+.artists {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  margin-bottom: 64px;
+
+
+  @media (min-width: 768px) {
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  @media (min-width: 1200px) {
+    margin-top: 58px;
+    margin-left: 64px;
+    margin-right: 64px;
+  }
+}

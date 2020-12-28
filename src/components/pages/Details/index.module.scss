@@ -1,0 +1,48 @@
+.details {
+  .artist {
+    position: relative;
+    border: 1px solid #bbb;
+    padding: 16px;
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 1024px) {
+      padding: 32px;
+      flex-direction: row;
+    }
+
+    .info {
+      @media (min-width: 1024px) {
+        margin-left: 32px;
+      }
+    }
+
+    .favorites {
+      position: absolute;
+      right: 20px;
+      top: 16px;
+      font-size: 48px;
+    }
+
+    p {
+      margin: 0;
+      margin-bottom: 16px;
+      padding: 0;
+      span {
+        font-weight: 600;
+      }
+    }
+
+    img {
+      width: 100%;
+      @media (min-width: 1024px) {
+        width: 30%;
+      }
+    }
+  }
+  .related {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
