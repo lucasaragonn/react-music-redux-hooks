@@ -13,7 +13,6 @@ const store = configureStore({
 store.subscribe(() => {
   updateState({
     favorites: store.getState().favorites,
-    artists: store.getState().artists,
   });
 });
 
